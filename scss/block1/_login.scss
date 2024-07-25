@@ -1,0 +1,83 @@
+.login {
+  width: 100%;
+  height: 100vh;
+  background: #ffffffb2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .login__card {
+    width: 400px;
+    height: 400px;
+    padding: 30px 75px;
+    border-radius: 50px;
+    margin: auto;
+    background: #fefefeca;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    .form {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+      justify-content: center;
+      .form__input-username,
+      .form__input-password {
+        border: 1px solid #b0a7a788;
+        padding: 8px;
+        outline: none;
+        border-radius: 10px;
+        width: 100%;
+        transition: border-color 0.3s;
+      }
+
+      .text_-_-{
+        margin-bottom: 3px;
+      }
+
+      .inp_text{
+        color: rgba(0, 0, 0, 0.588);
+      }
+
+      button {
+        margin-top: 10px;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        width: 100%;
+        outline: none;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 15px;
+        background-color: #bcbcbc;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &:hover {
+          background-color: #000;
+        }
+      }
+      .login__link {
+        width: 100%;
+        .login__collection {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          gap: 10px;
+          li{
+            margin-top: 10px;
+            box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+            border-radius: 20px;
+            padding: 7px;
+            color: #535353;
+            font-size: 20px;
+            font-weight: 600;
+            background: #a5a5a5;
+          }
+          li:hover{
+            background: #fff;
+          }
+        }
+      }
+    }
+  }
+}
